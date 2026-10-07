@@ -1,0 +1,16 @@
+{
+  "tagline":      "Estudiante nivel Secundario para Técnico en Computación. Creo y desarmo cosas para entender cómo funcionan.",
+  "nav_about":    "Sobre mí",
+  "nav_projects": "Proyectos",
+  "nav_contact":  "Contacto",
+  "source":       "Código ↗",
+
+  "about_1": "Estudio en la Escuela Técnica N.º 35 Ing. Eduardo Latzina, Ciudad Autónoma de Buenos Aires. La mayor parte de lo que sé viene de crear cosas y romperlas; siempre preguntando e indagando en todo.",
+  "about_2": "Trabajo principalmente con GNU/Linux (Debian y derivados) y tengo experiencia práctica administrando sistemas y servicios en mi propio hardware. Me interesa redes, la administración de sistemas, la ciberseguridad (especialmente análisis de binarios, seguridad web e ingeniería inversa) y la electrónica. Escribo firmware, hago prototipos de circuitos y he fabricado PCBs de forma artesanal.",
+  "about_3": "Recibí hardware de <a href=\"https://hackclub.com\" target=\"_blank\" rel=\"noopener\">Hack Club</a> como reconocimiento por mi participación, incluyendo una Raspberry Pi 5 (16 GB).",
+
+  "proj_raffles":   "Una API REST para administrar rifas: conjuntos de números, compradores y usuarios. El sistema genera números automáticamente, registra su estado y mantiene los datos separados por usuario. Fue un ejercicio de diseño backend — modelado relacional, flujo de autenticación y estructura limpia de API.",
+  "proj_landserm":  "Un sistema modular de gestión de eventos para servidores Linux y redes locales. Detecta eventos definidos como cambios de estado en servicios, y en el futuro señales de almacenamiento y alertas SMART. Luego ejecuta respuestas automatizadas, según lo declarado en cada política.",
+  "proj_duckduino": "Firmware para el Arduino Pro Micro que ejecuta payloads Duckyscript con soporte correcto de distribuciones de teclado en español (España y Latinoamérica). La mayoría de las implementaciones existentes ignoran las diferencias de layout; esta las resuelve a nivel de firmware. Estoy desarrollando una extensión de esto con un selector remoto de payloads y un módulo Wi-Fi como puente de comunicación.",
+  "proj_noclick":   "Un videojuego educativo escrito en Java para aprender conceptos de ciberseguridad mediante escenarios prácticos. Combina mecánicas de juego con temas reales de seguridad para hacer concretos conceptos abstractos."
+}

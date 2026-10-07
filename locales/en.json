@@ -1,0 +1,16 @@
+{
+"tagline":      "Highschool Computer Science student. I build and take things apart to understand how they work.",
+"nav_about":    "About",
+"nav_projects": "Projects",
+"nav_contact":  "Contact",
+"source":       "Source Code ↗",
+
+"about_1": "I study at Escuela Técnica N.º 35 Ing. Eduardo Latzina in the City of Buenos Aires, Argentina. Most of what I know comes from building things and breaking them; always asking questions and investigating everything.",
+"about_2": "I primarily work with GNU/Linux (Debian and derivatives) and have hands-on experience administering systems and services on my own hardware. I am interested in networking, systems administration, cybersecurity (especially binary analysis, web security, and reverse engineering), and electronics. I write firmware, prototype circuits, and have manufactured PCBs by hand.",
+"about_3": "I received hardware from <a href=\"https://hackclub.com\" target=\"_blank\" rel=\"noopener\">Hack Club</a> in recognition of my participation, including a Raspberry Pi 5 (16 GB).",
+
+"proj_raffles":   "A REST API for managing raffles: sets of numbers, buyers, and users. The system automatically generates numbers, tracks their status, and keeps data separated by user. It was a backend design exercise involving relational modeling, authentication flows, and clean API architecture.",
+"proj_landserm":  "A modular event management system for Linux servers and local networks. It detects events defined as state changes in services, with future support for storage signals and SMART alerts. It then executes automated responses according to the policies defined for each event.",
+"proj_duckduino": "Firmware for the Arduino Pro Micro that executes Duckyscript payloads with proper support for Spanish keyboard layouts (Spain and Latin America). Most existing implementations ignore layout differences; this one handles them at the firmware level. I am developing an extension with a remote payload selector and a Wi-Fi module as a communication bridge.",
+"proj_noclick":   "An educational video game written in Java for learning cybersecurity concepts through practical scenarios. It combines game mechanics with real-world security topics to make abstract concepts more concrete."
+}

@@ -9,106 +9,79 @@
 <body>
 
   <header>
-    <h1>Gonzalo Vattino</h1>
-    <p>Computer technician student. I build things to learn how they work.</p>
+    <div class="header-top">
+      <div>
+        <h1>Gonzalo Vattino</h1>
+        <p data-i18n="tagline"></p>
+      </div>
+      <div style="display:flex;gap:0.5rem">
+        <button id="theme-toggle" class="header-btn" aria-label="Switch theme">◑</button>
+        <button id="lang-toggle"  class="header-btn" aria-label="Switch language"></button>
+      </div>
+    </div>
     <nav>
-      <a href="#about">About</a>
-      <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
+      <a href="#about"    data-i18n="nav_about"></a>
+      <a href="#projects" data-i18n="nav_projects"></a>
+      <a href="#contact"  data-i18n="nav_contact"></a>
     </nav>
   </header>
 
   <main>
 
     <section id="about">
-      <h2>About</h2>
-      <p>
-        I'm studying to become a <em>Técnico en Computación</em> at Escuela Técnica N.º 35
-        "Ing. Eduardo Latzina", Ciudad Autónoma de Buenos Aires. Most of what I know comes from building things,
-        breaking things, and figuring out why.
-      </p>
-      <p>
-        I work mainly with GNU/Linux — Debian and derivatives — and have hands-on experience
-        administering Linux systems and services on my own hardware, including Raspberry Pi servers.
-        I'm interested in networks, systems programming, cybersecurity (especially binary analysis,
-        web security, and reverse engineering), and electronics. I write firmware, prototype circuits,
-        and have fabricated PCBs by hand.
-      </p>
-      <p>
-        I received hardware from <a href="https://hackclub.com" target="_blank" rel="noopener">Hack Club</a>
-        in recognition of my participation, including a Raspberry Pi 5 (16 GB).
-      </p>
+      <h2 data-i18n="nav_about"></h2>
+      <p data-i18n="about_1"></p>
+      <p data-i18n="about_2"></p>
+      <p data-i18n="about_3"></p>
     </section>
 
     <section id="projects">
-      <h2>Projects</h2>
+      <h2 data-i18n="nav_projects"></h2>
 
       <article>
         <h3>Raffles Manager API</h3>
-        <img src="https://github.com/GonzaStd/portfolio/raw/master/assets/raffles-manager-api.png" alt="raffles-manager-api">
-        <p>
-          A REST API for managing raffle projects: raffle sets, numbers, buyers, and users.
-          The system generates numbers automatically, tracks their state, and scopes all data
-          per user. It was an exercise in backend design — relational modeling, authentication
-          flow, and clean API structure.
-        </p>
+        <img src="assets/raffles-manager-api.png" alt="Raffles Manager API">
+        <p data-i18n="proj_raffles"></p>
         <p class="stack">Python · FastAPI · SQLAlchemy · MariaDB · JWT · Pydantic · bcrypt</p>
-        <a href="https://github.com/GonzaStd/raffles-manager-api" target="_blank" rel="noopener">Source ↗</a>
+        <a href="https://github.com/GonzaStd/raffles-manager-api" target="_blank" rel="noopener" data-i18n="source"></a>
       </article>
 
       <hr>
 
       <article>
         <h3>LandSerM — LAN and Server Monitor</h3>
-        <img src="https://github.com/GonzaStd/portfolio/raw/master/assets/landserm.png" alt="landserm">
-        <p>
-          A modular event-management system for Linux servers and local networks. It detects
-          defined events like service state changes — someday storage signals and SMART alerts — and executes
-          automated responses. Built around systemd.
-        </p>
+        <img src="assets/landserm.png" alt="LandSerM">
+        <p data-i18n="proj_landserm"></p>
         <p class="stack">Python · Linux · systemd · Storage monitoring · SMART</p>
-        <a href="https://github.com/GonzaStd/LandSerM" target="_blank" rel="noopener">Source ↗</a>
+        <a href="https://github.com/GonzaStd/LandSerM" target="_blank" rel="noopener" data-i18n="source"></a>
       </article>
 
       <hr>
 
       <article>
         <h3>SpanishDuckduino</h3>
-        <img src="https://github.com/GonzaStd/portfolio/raw/master/assets/SpanishDuckduino.gif" alt="SpanishDuckduino">
-        <p>
-          Firmware for the Arduino Pro Micro that executes Duckyscript payloads with correct
-          handling of Spanish (Spain and Latinoamerican) keyboard layouts. Most existing implementations ignore layout
-          differences; this one accounts for them at the firmware level. I'm building an extension of this project with a remote payload selector and a WiFi bridge module to communicate with each other.
-        </p>
+        <img src="assets/SpanishDuckduino.gif" alt="SpanishDuckduino">
+        <p data-i18n="proj_duckduino"></p>
         <p class="stack">C · Arduino Pro Micro · ATmega32U4 · Firmware · HID · Keyboard layouts</p>
-        <a href="https://github.com/GonzaStd/SpanishDuckduino" target="_blank" rel="noopener">Source ↗</a>
+        <a href="https://github.com/GonzaStd/SpanishDuckduino" target="_blank" rel="noopener" data-i18n="source"></a>
       </article>
 
       <hr>
 
       <article>
         <h3>noClick</h3>
-        <img src="https://github.com/GonzaStd/portfolio/raw/master/assets/noClick.png" alt="noClick">
-        <p>
-          An educational game written in Java for learning cybersecurity concepts through
-          practical scenarios. It combines game mechanics with real security topics to make
-          abstract concepts more concrete.
-        </p>
+        <img src="assets/noClick.png" alt="noClick">
+        <p data-i18n="proj_noclick"></p>
         <p class="stack">Java</p>
-        <a href="https://github.com/GonzaStd/noClick" target="_blank" rel="noopener">Source ↗</a>
+        <a href="https://github.com/GonzaStd/noClick" target="_blank" rel="noopener" data-i18n="source"></a>
       </article>
 
       <hr>
 
-      <p>
-        I have other projects — Linux servers, Raspberry Pi, Samba, network storage, router
-        firmware, microcontrollers, electronics, automations, etc.
-      </p>
-
     </section>
 
     <section id="contact">
-      <h2>Contact</h2>
+      <h2 data-i18n="nav_contact"></h2>
       <ul>
         <li><a href="https://github.com/GonzaStd" target="_blank" rel="noopener">github.com/GonzaStd</a></li>
         <li><a href="mailto:gonzalo.vattino@protonmail.com">gonzalo.vattino@protonmail.com</a></li>
@@ -121,6 +94,8 @@
   <footer>
     <p>Gonzalo Vattino · Ciudad Autónoma de Buenos Aires</p>
   </footer>
+
+  <script src="i18n.js"></script>
 
 </body>
 </html>
