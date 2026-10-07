@@ -1,0 +1,122 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #111;
+  background: #fff;
+  max-width: 660px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem 4rem;
+}
+
+/* Header */
+
+header {
+  margin-bottom: 3.5rem;
+}
+
+header h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0 0 0.25rem;
+}
+
+header p {
+  margin: 0 0 1.25rem;
+  color: #555;
+}
+
+nav {
+  display: flex;
+  gap: 1.25rem;
+}
+
+nav a {
+  font-size: 0.9rem;
+}
+
+/* Sections */
+
+section {
+  margin-bottom: 3.5rem;
+}
+
+h2 {
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #888;
+  margin: 0 0 1.25rem;
+}
+
+/* Projects */
+
+article {
+  margin-bottom: 0;
+}
+
+article h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0 0 0.4rem;
+}
+
+article p {
+  margin: 0 0 0.4rem;
+}
+
+.stack {
+  font-size: 0.85rem;
+  color: #666;
+}
+
+article a {
+  font-size: 0.9rem;
+  display: inline-block;
+  margin-top: 0.35rem;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #e5e5e5;
+  margin: 1.75rem 0;
+}
+
+/* Contact */
+
+#contact ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#contact li {
+  margin-bottom: 0.35rem;
+}
+
+/* Links */
+
+a {
+  color: #111;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+a:hover {
+  color: #444;
+}
+
+/* Footer */
+
+footer {
+  margin-top: 4rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #e5e5e5;
+  font-size: 0.85rem;
+  color: #999;
+}
